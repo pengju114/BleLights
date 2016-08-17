@@ -7,28 +7,116 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C45D71B1D5E15C300B00E8E /* DOPDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C45D7171D5E15C300B00E8E /* DOPDropDownMenu.m */; };
+		9C45D7211D5E1BC400B00E8E /* BLDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C45D7201D5E1BC400B00E8E /* BLDevice.m */; };
+		9C45D73F1D5EEDDD00B00E8E /* HSV.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C45D7271D5EEDDD00B00E8E /* HSV.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9C45D7401D5EEDDD00B00E8E /* KZColorCompareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C45D72A1D5EEDDD00B00E8E /* KZColorCompareView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9C45D7411D5EEDDD00B00E8E /* KZColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C45D72C1D5EEDDD00B00E8E /* KZColorPicker.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9C45D7421D5EEDDD00B00E8E /* KZColorPickerAlphaSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C45D72E1D5EEDDD00B00E8E /* KZColorPickerAlphaSlider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9C45D7431D5EEDDD00B00E8E /* KZColorPickerBrightnessSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C45D7301D5EEDDD00B00E8E /* KZColorPickerBrightnessSlider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9C45D7441D5EEDDD00B00E8E /* KZColorPickerHSWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C45D7321D5EEDDD00B00E8E /* KZColorPickerHSWheel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9C45D7451D5EEDDD00B00E8E /* KZColorPickerSwatchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C45D7341D5EEDDD00B00E8E /* KZColorPickerSwatchView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9C45D7461D5EEDDD00B00E8E /* KZUnitSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C45D7361D5EEDDD00B00E8E /* KZUnitSlider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9C45D7491D5EEDDD00B00E8E /* UIColor-Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C45D73A1D5EEDDD00B00E8E /* UIColor-Expanded.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9C45D74B1D5EF53B00B00E8E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C45D74A1D5EF53B00B00E8E /* CoreGraphics.framework */; };
+		9C45D74D1D5EF55000B00E8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C45D74C1D5EF55000B00E8E /* QuartzCore.framework */; };
+		9C45D74F1D5EF55A00B00E8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C45D74E1D5EF55A00B00E8E /* Foundation.framework */; };
+		9C45D7511D5EF56000B00E8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C45D7501D5EF56000B00E8E /* UIKit.framework */; };
+		9C45D7541D606FC200B00E8E /* KZCTPickerHSWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C45D7531D606FC200B00E8E /* KZCTPickerHSWheel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9C45D7571D60714F00B00E8E /* KZCTPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C45D7561D60714F00B00E8E /* KZCTPicker.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9C45D75A1D6341ED00B00E8E /* ZWCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C45D7591D6341ED00B00E8E /* ZWCentralManager.m */; };
+		9C45D75D1D63495C00B00E8E /* BLDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C45D75C1D63495C00B00E8E /* BLDriver.m */; };
+		9C45D7641D63537D00B00E8E /* BLLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C45D7631D63537D00B00E8E /* BLLog.m */; };
+		9C45D7671D63708100B00E8E /* BLDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C45D7661D63708100B00E8E /* BLDeviceManager.m */; };
+		9CF366FC1D5B7A2700D8F657 /* ZWBLEScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF366FA1D5B7A2700D8F657 /* ZWBLEScanner.m */; };
+		9CF367021D5B7B7400D8F657 /* CBPeripheral+ZWCompatible.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF367011D5B7B7400D8F657 /* CBPeripheral+ZWCompatible.m */; };
+		9CF367051D5B874D00D8F657 /* BLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF367041D5B874D00D8F657 /* BLMainViewController.m */; };
+		9CF367081D5CBC4A00D8F657 /* BLTabItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF367071D5CBC4A00D8F657 /* BLTabItemViewController.m */; };
+		9CF3670B1D5CBCC800D8F657 /* BLSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF3670A1D5CBCC800D8F657 /* BLSceneViewController.m */; };
+		9CF3670E1D5CBCDD00D8F657 /* BLSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF3670D1D5CBCDD00D8F657 /* BLSettingViewController.m */; };
+		9CF367111D5CE04400D8F657 /* UIImage+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF367101D5CE04400D8F657 /* UIImage+Utility.m */; };
 		9CFA98CA1D5A2A3700349ED3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFA98C91D5A2A3700349ED3 /* main.m */; };
 		9CFA98CD1D5A2A3700349ED3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFA98CC1D5A2A3700349ED3 /* AppDelegate.m */; };
-		9CFA98D01D5A2A3700349ED3 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFA98CF1D5A2A3700349ED3 /* FirstViewController.m */; };
-		9CFA98D31D5A2A3700349ED3 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFA98D21D5A2A3700349ED3 /* SecondViewController.m */; };
+		9CFA98D01D5A2A3700349ED3 /* BLColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFA98CF1D5A2A3700349ED3 /* BLColorViewController.m */; };
+		9CFA98D31D5A2A3700349ED3 /* BLCTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFA98D21D5A2A3700349ED3 /* BLCTViewController.m */; };
 		9CFA98D61D5A2A3700349ED3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CFA98D41D5A2A3700349ED3 /* Main.storyboard */; };
 		9CFA98D81D5A2A3800349ED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CFA98D71D5A2A3800349ED3 /* Assets.xcassets */; };
 		9CFA98DB1D5A2A3800349ED3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CFA98D91D5A2A3800349ED3 /* LaunchScreen.storyboard */; };
+		9CFA98E51D5A2E4900349ED3 /* BLScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFA98E41D5A2E4900349ED3 /* BLScanViewController.m */; };
+		9CFA98E71D5A301200349ED3 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CFA98E61D5A301200349ED3 /* CoreBluetooth.framework */; };
+		9CFA98EE1D5A3ACC00349ED3 /* UIViewController+UIUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFA98ED1D5A3ACC00349ED3 /* UIViewController+UIUtility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C45D7161D5E15C300B00E8E /* DOPDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOPDropDownMenu.h; sourceTree = "<group>"; };
+		9C45D7171D5E15C300B00E8E /* DOPDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOPDropDownMenu.m; sourceTree = "<group>"; };
+		9C45D71F1D5E1BC400B00E8E /* BLDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLDevice.h; sourceTree = "<group>"; };
+		9C45D7201D5E1BC400B00E8E /* BLDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLDevice.m; sourceTree = "<group>"; };
+		9C45D7271D5EEDDD00B00E8E /* HSV.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HSV.c; sourceTree = "<group>"; };
+		9C45D7281D5EEDDD00B00E8E /* HSV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSV.h; sourceTree = "<group>"; };
+		9C45D7291D5EEDDD00B00E8E /* KZColorCompareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorCompareView.h; sourceTree = "<group>"; };
+		9C45D72A1D5EEDDD00B00E8E /* KZColorCompareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorCompareView.m; sourceTree = "<group>"; };
+		9C45D72B1D5EEDDD00B00E8E /* KZColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorPicker.h; sourceTree = "<group>"; };
+		9C45D72C1D5EEDDD00B00E8E /* KZColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorPicker.m; sourceTree = "<group>"; };
+		9C45D72D1D5EEDDD00B00E8E /* KZColorPickerAlphaSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorPickerAlphaSlider.h; sourceTree = "<group>"; };
+		9C45D72E1D5EEDDD00B00E8E /* KZColorPickerAlphaSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorPickerAlphaSlider.m; sourceTree = "<group>"; };
+		9C45D72F1D5EEDDD00B00E8E /* KZColorPickerBrightnessSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorPickerBrightnessSlider.h; sourceTree = "<group>"; };
+		9C45D7301D5EEDDD00B00E8E /* KZColorPickerBrightnessSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorPickerBrightnessSlider.m; sourceTree = "<group>"; };
+		9C45D7311D5EEDDD00B00E8E /* KZColorPickerHSWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorPickerHSWheel.h; sourceTree = "<group>"; };
+		9C45D7321D5EEDDD00B00E8E /* KZColorPickerHSWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorPickerHSWheel.m; sourceTree = "<group>"; };
+		9C45D7331D5EEDDD00B00E8E /* KZColorPickerSwatchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorPickerSwatchView.h; sourceTree = "<group>"; };
+		9C45D7341D5EEDDD00B00E8E /* KZColorPickerSwatchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorPickerSwatchView.m; sourceTree = "<group>"; };
+		9C45D7351D5EEDDD00B00E8E /* KZUnitSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZUnitSlider.h; sourceTree = "<group>"; };
+		9C45D7361D5EEDDD00B00E8E /* KZUnitSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZUnitSlider.m; sourceTree = "<group>"; };
+		9C45D7391D5EEDDD00B00E8E /* UIColor-Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor-Expanded.h"; sourceTree = "<group>"; };
+		9C45D73A1D5EEDDD00B00E8E /* UIColor-Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor-Expanded.m"; sourceTree = "<group>"; };
+		9C45D74A1D5EF53B00B00E8E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9C45D74C1D5EF55000B00E8E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9C45D74E1D5EF55A00B00E8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9C45D7501D5EF56000B00E8E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9C45D7521D606FC200B00E8E /* KZCTPickerHSWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZCTPickerHSWheel.h; sourceTree = "<group>"; };
+		9C45D7531D606FC200B00E8E /* KZCTPickerHSWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZCTPickerHSWheel.m; sourceTree = "<group>"; };
+		9C45D7551D60714F00B00E8E /* KZCTPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZCTPicker.h; sourceTree = "<group>"; };
+		9C45D7561D60714F00B00E8E /* KZCTPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZCTPicker.m; sourceTree = "<group>"; };
+		9C45D7581D6341ED00B00E8E /* ZWCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWCentralManager.h; sourceTree = "<group>"; };
+		9C45D7591D6341ED00B00E8E /* ZWCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWCentralManager.m; sourceTree = "<group>"; };
+		9C45D75B1D63495C00B00E8E /* BLDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLDriver.h; sourceTree = "<group>"; };
+		9C45D75C1D63495C00B00E8E /* BLDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLDriver.m; sourceTree = "<group>"; };
+		9C45D7621D63537D00B00E8E /* BLLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLLog.h; sourceTree = "<group>"; };
+		9C45D7631D63537D00B00E8E /* BLLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLLog.m; sourceTree = "<group>"; };
+		9C45D7651D63708100B00E8E /* BLDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLDeviceManager.h; sourceTree = "<group>"; };
+		9C45D7661D63708100B00E8E /* BLDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLDeviceManager.m; sourceTree = "<group>"; };
+		9CF366F91D5B7A2700D8F657 /* ZWBLEScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWBLEScanner.h; sourceTree = "<group>"; };
+		9CF366FA1D5B7A2700D8F657 /* ZWBLEScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWBLEScanner.m; sourceTree = "<group>"; };
+		9CF367001D5B7B7400D8F657 /* CBPeripheral+ZWCompatible.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBPeripheral+ZWCompatible.h"; sourceTree = "<group>"; };
+		9CF367011D5B7B7400D8F657 /* CBPeripheral+ZWCompatible.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBPeripheral+ZWCompatible.m"; sourceTree = "<group>"; };
+		9CF367031D5B874D00D8F657 /* BLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLMainViewController.h; sourceTree = "<group>"; };
+		9CF367041D5B874D00D8F657 /* BLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLMainViewController.m; sourceTree = "<group>"; };
+		9CF367061D5CBC4A00D8F657 /* BLTabItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLTabItemViewController.h; sourceTree = "<group>"; };
+		9CF367071D5CBC4A00D8F657 /* BLTabItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLTabItemViewController.m; sourceTree = "<group>"; };
+		9CF367091D5CBCC800D8F657 /* BLSceneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLSceneViewController.h; sourceTree = "<group>"; };
+		9CF3670A1D5CBCC800D8F657 /* BLSceneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLSceneViewController.m; sourceTree = "<group>"; };
+		9CF3670C1D5CBCDD00D8F657 /* BLSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLSettingViewController.h; sourceTree = "<group>"; };
+		9CF3670D1D5CBCDD00D8F657 /* BLSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLSettingViewController.m; sourceTree = "<group>"; };
+		9CF3670F1D5CE04400D8F657 /* UIImage+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utility.h"; sourceTree = "<group>"; };
+		9CF367101D5CE04400D8F657 /* UIImage+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utility.m"; sourceTree = "<group>"; };
 		9CFA98C51D5A2A3700349ED3 /* BleLights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BleLights.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CFA98C91D5A2A3700349ED3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9CFA98CB1D5A2A3700349ED3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9CFA98CC1D5A2A3700349ED3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9CFA98CE1D5A2A3700349ED3 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		9CFA98CF1D5A2A3700349ED3 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		9CFA98D11D5A2A3700349ED3 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		9CFA98D21D5A2A3700349ED3 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		9CFA98CE1D5A2A3700349ED3 /* BLColorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLColorViewController.h; sourceTree = "<group>"; };
+		9CFA98CF1D5A2A3700349ED3 /* BLColorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLColorViewController.m; sourceTree = "<group>"; };
+		9CFA98D11D5A2A3700349ED3 /* BLCTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLCTViewController.h; sourceTree = "<group>"; };
+		9CFA98D21D5A2A3700349ED3 /* BLCTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLCTViewController.m; sourceTree = "<group>"; };
 		9CFA98D51D5A2A3700349ED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CFA98D71D5A2A3800349ED3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CFA98DA1D5A2A3800349ED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CFA98DC1D5A2A3800349ED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CFA98E31D5A2E4900349ED3 /* BLScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLScanViewController.h; sourceTree = "<group>"; };
+		9CFA98E41D5A2E4900349ED3 /* BLScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLScanViewController.m; sourceTree = "<group>"; };
+		9CFA98E61D5A301200349ED3 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		9CFA98EC1D5A3ACC00349ED3 /* UIViewController+UIUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+UIUtility.h"; sourceTree = "<group>"; };
+		9CFA98ED1D5A3ACC00349ED3 /* UIViewController+UIUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+UIUtility.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,16 +124,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C45D7511D5EF56000B00E8E /* UIKit.framework in Frameworks */,
+				9C45D74F1D5EF55A00B00E8E /* Foundation.framework in Frameworks */,
+				9C45D74D1D5EF55000B00E8E /* QuartzCore.framework in Frameworks */,
+				9C45D74B1D5EF53B00B00E8E /* CoreGraphics.framework in Frameworks */,
+				9CFA98E71D5A301200349ED3 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C45D7151D5E15C300B00E8E /* DOPDropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				9C45D7161D5E15C300B00E8E /* DOPDropDownMenu.h */,
+				9C45D7171D5E15C300B00E8E /* DOPDropDownMenu.m */,
+			);
+			path = DOPDropDownMenu;
+			sourceTree = "<group>";
+		};
+		9C45D7221D5EEDDD00B00E8E /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				9C45D7551D60714F00B00E8E /* KZCTPicker.h */,
+				9C45D7561D60714F00B00E8E /* KZCTPicker.m */,
+				9C45D7271D5EEDDD00B00E8E /* HSV.c */,
+				9C45D7281D5EEDDD00B00E8E /* HSV.h */,
+				9C45D7291D5EEDDD00B00E8E /* KZColorCompareView.h */,
+				9C45D72A1D5EEDDD00B00E8E /* KZColorCompareView.m */,
+				9C45D72B1D5EEDDD00B00E8E /* KZColorPicker.h */,
+				9C45D72C1D5EEDDD00B00E8E /* KZColorPicker.m */,
+				9C45D72D1D5EEDDD00B00E8E /* KZColorPickerAlphaSlider.h */,
+				9C45D72E1D5EEDDD00B00E8E /* KZColorPickerAlphaSlider.m */,
+				9C45D72F1D5EEDDD00B00E8E /* KZColorPickerBrightnessSlider.h */,
+				9C45D7301D5EEDDD00B00E8E /* KZColorPickerBrightnessSlider.m */,
+				9C45D7311D5EEDDD00B00E8E /* KZColorPickerHSWheel.h */,
+				9C45D7321D5EEDDD00B00E8E /* KZColorPickerHSWheel.m */,
+				9C45D7331D5EEDDD00B00E8E /* KZColorPickerSwatchView.h */,
+				9C45D7341D5EEDDD00B00E8E /* KZColorPickerSwatchView.m */,
+				9C45D7351D5EEDDD00B00E8E /* KZUnitSlider.h */,
+				9C45D7361D5EEDDD00B00E8E /* KZUnitSlider.m */,
+				9C45D7391D5EEDDD00B00E8E /* UIColor-Expanded.h */,
+				9C45D73A1D5EEDDD00B00E8E /* UIColor-Expanded.m */,
+				9C45D7521D606FC200B00E8E /* KZCTPickerHSWheel.h */,
+				9C45D7531D606FC200B00E8E /* KZCTPickerHSWheel.m */,
+			);
+			path = ColorPicker;
+			sourceTree = "<group>";
+		};
 		9CFA98BC1D5A2A3700349ED3 = {
 			isa = PBXGroup;
 			children = (
 				9CFA98C71D5A2A3700349ED3 /* BleLights */,
+				9CFA98E81D5A301900349ED3 /* Frameworks */,
 				9CFA98C61D5A2A3700349ED3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,13 +193,11 @@
 		9CFA98C71D5A2A3700349ED3 /* BleLights */ = {
 			isa = PBXGroup;
 			children = (
+				9CFA98EB1D5A3AA300349ED3 /* Category */,
+				9CFA98E91D5A313500349ED3 /* Classes */,
+				9CFA98E21D5A2A9B00349ED3 /* Views */,
 				9CFA98CB1D5A2A3700349ED3 /* AppDelegate.h */,
 				9CFA98CC1D5A2A3700349ED3 /* AppDelegate.m */,
-				9CFA98CE1D5A2A3700349ED3 /* FirstViewController.h */,
-				9CFA98CF1D5A2A3700349ED3 /* FirstViewController.m */,
-				9CFA98D11D5A2A3700349ED3 /* SecondViewController.h */,
-				9CFA98D21D5A2A3700349ED3 /* SecondViewController.m */,
-				9CFA98D41D5A2A3700349ED3 /* Main.storyboard */,
 				9CFA98D71D5A2A3800349ED3 /* Assets.xcassets */,
 				9CFA98D91D5A2A3800349ED3 /* LaunchScreen.storyboard */,
 				9CFA98DC1D5A2A3800349ED3 /* Info.plist */,
@@ -82,6 +212,82 @@
 				9CFA98C91D5A2A3700349ED3 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9CFA98E21D5A2A9B00349ED3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9C45D7221D5EEDDD00B00E8E /* ColorPicker */,
+				9C45D7151D5E15C300B00E8E /* DOPDropDownMenu */,
+				9CFA98CE1D5A2A3700349ED3 /* BLColorViewController.h */,
+				9CFA98CF1D5A2A3700349ED3 /* BLColorViewController.m */,
+				9CFA98D11D5A2A3700349ED3 /* BLCTViewController.h */,
+				9CFA98D21D5A2A3700349ED3 /* BLCTViewController.m */,
+				9CFA98D41D5A2A3700349ED3 /* Main.storyboard */,
+				9CFA98E31D5A2E4900349ED3 /* BLScanViewController.h */,
+				9CFA98E41D5A2E4900349ED3 /* BLScanViewController.m */,
+				9CF367031D5B874D00D8F657 /* BLMainViewController.h */,
+				9CF367041D5B874D00D8F657 /* BLMainViewController.m */,
+				9CF367061D5CBC4A00D8F657 /* BLTabItemViewController.h */,
+				9CF367071D5CBC4A00D8F657 /* BLTabItemViewController.m */,
+				9CF367091D5CBCC800D8F657 /* BLSceneViewController.h */,
+				9CF3670A1D5CBCC800D8F657 /* BLSceneViewController.m */,
+				9CF3670C1D5CBCDD00D8F657 /* BLSettingViewController.h */,
+				9CF3670D1D5CBCDD00D8F657 /* BLSettingViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9CFA98E81D5A301900349ED3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C45D7501D5EF56000B00E8E /* UIKit.framework */,
+				9C45D74E1D5EF55A00B00E8E /* Foundation.framework */,
+				9C45D74C1D5EF55000B00E8E /* QuartzCore.framework */,
+				9C45D74A1D5EF53B00B00E8E /* CoreGraphics.framework */,
+				9CFA98E61D5A301200349ED3 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CFA98E91D5A313500349ED3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9CFA98EA1D5A315600349ED3 /* Ble */,
+				9C45D7621D63537D00B00E8E /* BLLog.h */,
+				9C45D7631D63537D00B00E8E /* BLLog.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		9CFA98EA1D5A315600349ED3 /* Ble */ = {
+			isa = PBXGroup;
+			children = (
+				9C45D7581D6341ED00B00E8E /* ZWCentralManager.h */,
+				9C45D7591D6341ED00B00E8E /* ZWCentralManager.m */,
+				9CF366F91D5B7A2700D8F657 /* ZWBLEScanner.h */,
+				9CF366FA1D5B7A2700D8F657 /* ZWBLEScanner.m */,
+				9CF367001D5B7B7400D8F657 /* CBPeripheral+ZWCompatible.h */,
+				9CF367011D5B7B7400D8F657 /* CBPeripheral+ZWCompatible.m */,
+				9C45D71F1D5E1BC400B00E8E /* BLDevice.h */,
+				9C45D7201D5E1BC400B00E8E /* BLDevice.m */,
+				9C45D75B1D63495C00B00E8E /* BLDriver.h */,
+				9C45D75C1D63495C00B00E8E /* BLDriver.m */,
+				9C45D7651D63708100B00E8E /* BLDeviceManager.h */,
+				9C45D7661D63708100B00E8E /* BLDeviceManager.m */,
+			);
+			path = Ble;
+			sourceTree = "<group>";
+		};
+		9CFA98EB1D5A3AA300349ED3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9CFA98EC1D5A3ACC00349ED3 /* UIViewController+UIUtility.h */,
+				9CFA98ED1D5A3ACC00349ED3 /* UIViewController+UIUtility.m */,
+				9CF3670F1D5CE04400D8F657 /* UIImage+Utility.h */,
+				9CF367101D5CE04400D8F657 /* UIImage+Utility.m */,
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -115,7 +321,6 @@
 				TargetAttributes = {
 					9CFA98C41D5A2A3700349ED3 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = U442HQUWFP;
 					};
 				};
 			};
@@ -155,10 +360,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CFA98D31D5A2A3700349ED3 /* SecondViewController.m in Sources */,
+				9CF367051D5B874D00D8F657 /* BLMainViewController.m in Sources */,
+				9C45D7671D63708100B00E8E /* BLDeviceManager.m in Sources */,
+				9CFA98E51D5A2E4900349ED3 /* BLScanViewController.m in Sources */,
+				9CF3670B1D5CBCC800D8F657 /* BLSceneViewController.m in Sources */,
+				9C45D7641D63537D00B00E8E /* BLLog.m in Sources */,
+				9CF3670E1D5CBCDD00D8F657 /* BLSettingViewController.m in Sources */,
+				9C45D7211D5E1BC400B00E8E /* BLDevice.m in Sources */,
+				9C45D75A1D6341ED00B00E8E /* ZWCentralManager.m in Sources */,
+				9CFA98D31D5A2A3700349ED3 /* BLCTViewController.m in Sources */,
+				9C45D7411D5EEDDD00B00E8E /* KZColorPicker.m in Sources */,
+				9CF367081D5CBC4A00D8F657 /* BLTabItemViewController.m in Sources */,
+				9C45D7491D5EEDDD00B00E8E /* UIColor-Expanded.m in Sources */,
+				9C45D73F1D5EEDDD00B00E8E /* HSV.c in Sources */,
+				9C45D75D1D63495C00B00E8E /* BLDriver.m in Sources */,
+				9C45D7401D5EEDDD00B00E8E /* KZColorCompareView.m in Sources */,
+				9C45D7571D60714F00B00E8E /* KZCTPicker.m in Sources */,
 				9CFA98CD1D5A2A3700349ED3 /* AppDelegate.m in Sources */,
-				9CFA98D01D5A2A3700349ED3 /* FirstViewController.m in Sources */,
+				9CF367021D5B7B7400D8F657 /* CBPeripheral+ZWCompatible.m in Sources */,
+				9CF367111D5CE04400D8F657 /* UIImage+Utility.m in Sources */,
+				9C45D7541D606FC200B00E8E /* KZCTPickerHSWheel.m in Sources */,
+				9C45D71B1D5E15C300B00E8E /* DOPDropDownMenu.m in Sources */,
+				9C45D7441D5EEDDD00B00E8E /* KZColorPickerHSWheel.m in Sources */,
+				9CFA98D01D5A2A3700349ED3 /* BLColorViewController.m in Sources */,
 				9CFA98CA1D5A2A3700349ED3 /* main.m in Sources */,
+				9C45D7431D5EEDDD00B00E8E /* KZColorPickerBrightnessSlider.m in Sources */,
+				9CF366FC1D5B7A2700D8F657 /* ZWBLEScanner.m in Sources */,
+				9C45D7461D5EEDDD00B00E8E /* KZUnitSlider.m in Sources */,
+				9CFA98EE1D5A3ACC00349ED3 /* UIViewController+UIUtility.m in Sources */,
+				9C45D7421D5EEDDD00B00E8E /* KZColorPickerAlphaSlider.m in Sources */,
+				9C45D7451D5EEDDD00B00E8E /* KZColorPickerSwatchView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +452,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -260,7 +491,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -272,10 +503,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: zhang huichao (B84K9K5YWT)";
 				INFOPLIST_FILE = BleLights/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bl.BleLights;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3efcbdee-1d5b-480a-935d-b3cb1efb3948";
 			};
 			name = Debug;
 		};
@@ -283,10 +518,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shenzhen Excelsecu Data Technology Co., Ltd.";
 				INFOPLIST_FILE = BleLights/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bl.BleLights;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "bbed2eb6-8a7c-4333-8e76-46338ca8a37a";
 			};
 			name = Release;
 		};
@@ -309,6 +547,7 @@
 				9CFA98E11D5A2A3800349ED3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
